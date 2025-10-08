@@ -13,6 +13,19 @@
        
         echo "<br>";
         echo 20+25;
+        print"<br>";
+
+        //variable
+      
+        $name = "John";
+        $age = 30;
+        $grade = 85.5;
+
+        echo $name;
+        echo '<br>';
+        echo $age;
+        echo'<br>';
+        echo $grade
     ?>
 </body>
 </html>
