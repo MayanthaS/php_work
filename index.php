@@ -6,7 +6,12 @@
     <title>Document</title>
 </head>
 <body>
+    <form action="" method="GET">
+        <input type="text" name="person">
+        <button>Submit</button>
+    </form>
     <?php
+    /*
         echo "Hello, World!";
          print "<br>";
         print "hi there";
@@ -26,6 +31,9 @@
         echo $age;
         echo'<br>';
         echo $grade
+        */
+       $name =$_GET['person'];
+       echo "Hello, " . $name;
     ?>
 </body>
 </html>
