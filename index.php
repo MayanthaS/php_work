@@ -6,10 +6,12 @@
     <title>Document</title>
 </head>
 <body>
+    <!--
     <form action="" method="GET">
         <input type="text" name="person">
         <button>Submit</button>
     </form>
+    -->
     <?php
     /*
         echo "Hello, World!";
@@ -31,9 +33,44 @@
         echo $age;
         echo'<br>';
         echo $grade
-        */
+        
        $name =$_GET['person'];
        echo "Hello, " . $name;
+      */
+      //coments
+        //single line comment
+        /* multi line comment */
+        # another single line comment
+        
+        //functions
+        //predefined functions
+        //strlen()
+        $name = "John Doe";
+        $length = strlen($name);
+        echo "The length of the name is: " . $length;
+        echo "<br>";
+        echo $name;
+        //str_word_count()
+        $name = "John Doe";
+        $wordcount = str_word_count($name);
+        echo "<br>";
+        echo "The number of words in the name is: " . $wordcount;
+
+        //strrev()
+        $name = "John Doe";
+        $reversed = strrev($name);
+        echo "<br>";    
+        echo "The reversed name is: " . $reversed;
+        //strpos()
+        $name = "John Doe";
+        $position =strpos($name,"Doe");
+        echo "<br>";
+        echo "The position of 'Doe' in the name is: " . $position;
+        //str_replace()
+        $name = "John Doe";
+        $newname = str_replace("Doe","smith",$name);
+        echo "<br>";
+        echo "The new name is: " . $newname;
     ?>
 </body>
 </html>
