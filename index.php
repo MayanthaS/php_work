@@ -72,7 +72,7 @@
         $newname = str_replace("Doe","smith",$name);
         echo "<br>";
         echo "The new name is: " . $newname;
-        */
+       
         ///operators
 
         //arthmetic operators
@@ -89,7 +89,25 @@
         echo "<br>";
         echo 2 ** 10;
         echo "<br>";
+        echo ((((5*3)-5)*3)/2);
+        
 
+        //assignment operators
+        $num = 10;
+        echo $num;
+        echo "<br>";
+        $num += 5; // $num = $num + 5
+        echo $num;
+         */
+        //comparison operators
+        $a = 10;
+        $b = 20;
+        if($a == $b){
+            echo "a is equal to b";
+        }
+        else{
+            echo "a is not equal to b";
+        }
     ?>
 </body>
 </html>
