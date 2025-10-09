@@ -108,6 +108,34 @@
         else{
             echo "a is not equal to b";
         }
+        echo "<br>";
+         $a = 10;
+        $b = 20;
+        if($a != $b){
+            echo "true";
+        }
+        else{
+            echo "false";
+        }
+
+        ///
+         echo "<br>";
+         $a = 10;
+        $b = 20;
+        if($a !== $b){
+            echo "true";
+        }
+        else{
+            echo "false";
+        }
+        ///
+         
+        /*
+        == :- equal to value
+        === :- identical(data type and value)
+        != :- not equal to value
+        !== :- not identical(data type and value)
+        */
     ?>
 </body>
 </html>
