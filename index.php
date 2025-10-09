@@ -98,7 +98,7 @@
         echo "<br>";
         $num += 5; // $num = $num + 5
         echo $num;
-         */
+      
         //comparison operators
         $a = 10;
         $b = 20;
@@ -133,9 +133,26 @@
         /*
         == :- equal to value
         === :- identical(data type and value)
-        != :- not equal to value
-        !== :- not identical(data type and value)
+        /!= :- not equal to value
+        /!== :- not identical(data type and value)
         */
+            echo "<br>";
+            $a = 10;    
+            $b = "10";
+            if($a<$b){
+                echo"true";
+            }else{
+                echo "false";
+            }
+
+             echo "<br>";
+            $a = 10;    
+            $b = 10;
+            if($a<$b){
+                echo"true";
+            }else{
+                echo "false";
+            }
     ?>
 </body>
 </html>
