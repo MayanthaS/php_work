@@ -36,7 +36,7 @@
         
        $name =$_GET['person'];
        echo "Hello, " . $name;
-      */
+      
       //coments
         //single line comment
         /* multi line comment */
@@ -45,6 +45,7 @@
         //functions
         //predefined functions
         //strlen()
+        /*
         $name = "John Doe";
         $length = strlen($name);
         echo "The length of the name is: " . $length;
@@ -71,6 +72,24 @@
         $newname = str_replace("Doe","smith",$name);
         echo "<br>";
         echo "The new name is: " . $newname;
+        */
+        ///operators
+
+        //arthmetic operators
+        
+        echo 20 + 10;
+        echo "<br>";
+        echo 20 - 10;
+        echo "<br>";
+        echo 20 * 10;
+        echo "<br>";
+        echo 20 / 10;
+        echo "<br>";
+        echo 25 % 10;
+        echo "<br>";
+        echo 2 ** 10;
+        echo "<br>";
+
     ?>
 </body>
 </html>
