@@ -135,7 +135,7 @@
         === :- identical(data type and value)
         /!= :- not equal to value
         /!== :- not identical(data type and value)
-        */
+        
             echo "<br>";
             $a = 10;    
             $b = "10";
@@ -153,6 +153,13 @@
             }else{
                 echo "false";
             }
+                */
+            //incremant operator
+            //preincremant
+            $x =10;
+            echo $x;
+            echo '<br>';
+            echo ++$x;
     ?>
 </body>
 </html>
