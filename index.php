@@ -160,6 +160,18 @@
             echo $x;
             echo '<br>';
             echo ++$x;
+            echo '<br>';
+            echo $x;
+            echo '<br>';
+            echo ++$x;
+
+            //postincremant
+            echo '<br>';
+            echo $x;
+            echo'<br>';
+            echo $x++;
+            echo '<br>';
+            echo $x;
     ?>
 </body>
 </html>
