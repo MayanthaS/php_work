@@ -172,7 +172,6 @@
             echo $x++;
             echo '<br>';
             echo $x;
-               */
             // decremant operator
             $x =10;
             echo '<br>';
@@ -191,6 +190,38 @@
             echo $x--;//post decremant x = x-1
             echo '<br>';
             echo $x;
+               */
+
+            //logical operators
+            //or operstor
+            $x = 10;
+            $y= 20;
+            $z = 30;
+            if($x == $y || $x==$z){
+                echo 'Equal';
+            }
+            else  if($x != $y ||$x != $z ){
+                echo 'Not Equal';
+            }
+            else{
+                echo 'Not a valid statement';
+            }
+
+            //and operator
+            $p= 10;
+            $q= 20;
+            $r=10;
+            $s=10;
+            if($p == $r && $q == $s){
+                echo'<br>';
+                echo 'both are equal to the same value';
+
+            }else{
+                echo'<br>';
+                echo 'both are not equal to the same value';
+            }
+
+
     ?>
 </body>
 </html>
