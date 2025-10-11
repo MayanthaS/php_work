@@ -250,6 +250,16 @@
                 echo 'neither p equal to r nor q equal to p';
             }
 
+            //xor
+            if($p == $r xor $q == $p+10){
+                echo '<br>';
+                echo 'p equal to r or q equal to p+10 but not both';
+                echo '<br>';
+            }else{
+                echo '<br>';
+                echo 'either both are true or both are false';
+            }
+
 
     ?>
 </body>
