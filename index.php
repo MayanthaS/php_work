@@ -232,6 +232,24 @@
                 echo 'Condition is false';
             }
 
+            //xor
+            if($p == $r xor $q == $s){
+                echo '<br>';
+                echo 'Condition is true';
+            }else{
+                echo '<br>';
+                echo 'Condition is false';
+            }
+
+            //xor 
+            if($p == $r xor $q == $p){
+                echo '<br>';
+                echo 'p equal to r or q equal to p or both';
+            }else{
+                echo '<br>';
+                echo 'neither p equal to r nor q equal to p';
+            }
+
 
     ?>
 </body>
