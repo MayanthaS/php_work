@@ -178,7 +178,17 @@
             echo '<br>';
             echo $x;
             echo '<br>';
-            echo --$x;
+            echo --$x;//x =x-1 pre decremant
+            echo '<br>';
+            echo $x;
+
+            //post decremant
+            echo '<br>';
+            $x = 10;
+            echo '<br>';
+            echo $x;
+            echo '<br>';
+            echo $x--;//post decremant x = x-1
             echo '<br>';
             echo $x;
     ?>
