@@ -153,7 +153,7 @@
             }else{
                 echo "false";
             }
-                */
+             
             //incremant operator
             //preincremant
             $x =10;
@@ -170,6 +170,15 @@
             echo $x;
             echo'<br>';
             echo $x++;
+            echo '<br>';
+            echo $x;
+               */
+            // decremant operator
+            $x =10;
+            echo '<br>';
+            echo $x;
+            echo '<br>';
+            echo --$x;
             echo '<br>';
             echo $x;
     ?>
