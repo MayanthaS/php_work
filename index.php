@@ -220,6 +220,17 @@
                 echo'<br>';
                 echo 'both are not equal to the same value';
             }
+            $p= 10;
+            $q= 20;
+            $r=10;
+            $s=10;
+            if ($p == $r && $q == $p+10) {
+                echo '<br>';
+                echo 'Condition is true';
+            } else {
+                echo '<br>';
+                echo 'Condition is false';
+            }
 
 
     ?>
