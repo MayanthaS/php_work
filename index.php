@@ -160,6 +160,7 @@
             echo $x;
             echo '<br>';
             echo ++$x;
+<<<<<<< HEAD
             */
             //IF statement
             $x = 20;
@@ -169,6 +170,64 @@
             if ($x == $y || $x == $z ){
                 echo "x is equal to y or z";
                 echo "<br>";
+=======
+            echo '<br>';
+            echo $x;
+            echo '<br>';
+            echo ++$x;
+
+            //postincremant
+            echo '<br>';
+            echo $x;
+            echo'<br>';
+            echo $x++;
+            echo '<br>';
+            echo $x;
+            // decremant operator
+            $x =10;
+            echo '<br>';
+            echo $x;
+            echo '<br>';
+            echo --$x;//x =x-1 pre decremant
+            echo '<br>';
+            echo $x;
+
+            //post decremant
+            echo '<br>';
+            $x = 10;
+            echo '<br>';
+            echo $x;
+            echo '<br>';
+            echo $x--;//post decremant x = x-1
+            echo '<br>';
+            echo $x;
+              
+
+            //logical operators
+            //or operstor
+            $x = 10;
+            $y= 20;
+            $z = 30;
+            if($x == $y || $x==$z){
+                echo 'Equal';
+            }
+            else  if($x != $y ||$x != $z ){
+                echo 'Not Equal';
+            }
+            else{
+                echo 'Not a valid statement';
+            }
+
+            //and operator
+            $p= 10;
+            $q= 20;
+            $r=10;
+            $s=10;
+            if($p == $r && $q == $s){
+                echo'<br>';
+                echo 'both are equal to the same value';
+
+>>>>>>> dev
             }else{
                 echo "x is not equal to y or z";
                 echo "<br>";
@@ -184,6 +243,50 @@
                 echo 'either both are true or both are false';
             }
 
+<<<<<<< HEAD
+=======
+                //if elseif else
+                $x =10;
+                $y =20;
+                if($x == $y){
+                   echo '<br>';
+                   echo 'x is equal to y';
+                }
+                else if($x > $y){
+                    echo '<br>';
+                    echo 'x is greater than y';
+                }
+                else if($x < $y){
+                    echo '<br>';
+                    echo 'x is less than y';
+                }
+                else{
+                   echo '<br>';
+                   echo 'x is not equal to y';
+                }
+                  */
+                //switch case
+                $input = 6;
+                switch($input){
+                    case 1:
+                        echo "You selected 1";
+                        break;
+                    case 2:
+                        echo "You selected 2";
+                        break;
+                    case 3:
+                        echo "You selected 3";
+                        break;
+                    case 4:
+                        echo "You selected 4";
+                        break;
+                    case 5:
+                        echo "You selected 5";
+                        break;
+                    default:
+                        echo "Invalid input";
+                }
+>>>>>>> dev
 
     ?>
 </body>
