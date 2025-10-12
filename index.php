@@ -271,6 +271,27 @@
                 echo 'x is not equal to y';
              }
 
+                //if elseif else
+                $x =10;
+                $y =20;
+                if($x == $y){
+                   echo '<br>';
+                   echo 'x is equal to y';
+                }
+                else if($x > $y){
+                    echo '<br>';
+                    echo 'x is greater than y';
+                }
+                else if($x < $y){
+                    echo '<br>';
+                    echo 'x is less than y';
+                }
+                else{
+                   echo '<br>';
+                   echo 'x is not equal to y';
+                }
+                
+
     ?>
 </body>
 </html>
