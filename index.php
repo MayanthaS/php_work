@@ -259,7 +259,17 @@
                 echo '<br>';
                 echo 'either both are true or both are false';
             }
-
+             //if else
+             $x =10;
+             $y =20;
+             if($x == $y){
+                echo '<br>';
+                echo 'x is equal to y';
+             }
+             else{
+                echo '<br>';
+                echo 'x is not equal to y';
+             }
 
     ?>
 </body>
