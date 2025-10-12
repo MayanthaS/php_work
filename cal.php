@@ -19,24 +19,35 @@
             <option value="mul">Multiply</option>
             <option value="div">Divide</option>
         </select> <br><br>
+<button type="submit" name="submit">Calculate</button>
 
-        <button type="submit">Calculate</button>
 
     </form>
-
+       
     <?php
-        
-
-
-
-
-
-
-
-
-
-
-
+         if(isset($_GET['submit'])){
+            $num1 = $_GET['num1'];
+            $num2 = $_GET['num2'];
+            $operator = $_GET['operator'];
+             //display answer 
+             switch($operator){
+                case'add':
+                    echo $num1+$num2;
+                    break;
+                case'sub':
+                    echo $num1-$num2;
+                    break;
+                case'mul':
+                    echo $num1*$num2;
+                    break;  
+                case'div':
+                    echo $num1/$num2;
+                    break;
+                default:
+                    echo "Invalid operator";
+                    break;
+             }
+        }
 
         ?>
 </body>
