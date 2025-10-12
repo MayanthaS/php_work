@@ -290,7 +290,27 @@
                    echo '<br>';
                    echo 'x is not equal to y';
                 }
-                
+
+                //switch case
+                $input = 5;
+                switch($input){
+                    case 1:
+                        echo "You selected 1";
+                        break;
+                    case 2:
+                        echo "You selected 2";
+                        break;
+                    case 3:
+                        echo "You selected 3";
+                        break;
+                    case 4:
+                        echo "You selected 4";
+                        break;
+                    case 5:
+                        echo "You selected 5";
+                        break;
+
+                }
 
     ?>
 </body>
