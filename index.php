@@ -190,7 +190,7 @@
             echo $x--;//post decremant x = x-1
             echo '<br>';
             echo $x;
-               */
+              
 
             //logical operators
             //or operstor
@@ -290,9 +290,9 @@
                    echo '<br>';
                    echo 'x is not equal to y';
                 }
-
+                  */
                 //switch case
-                $input = 5;
+                $input = 6;
                 switch($input){
                     case 1:
                         echo "You selected 1";
@@ -309,7 +309,8 @@
                     case 5:
                         echo "You selected 5";
                         break;
-
+                    default:
+                        echo "Invalid input";
                 }
 
     ?>
