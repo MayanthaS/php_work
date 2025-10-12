@@ -160,6 +160,19 @@
             echo $x;
             echo '<br>';
             echo ++$x;
+            */
+            //IF statement
+            $x = 20;
+            $y = 30;
+            $z = 20;
+            $w =10;
+            if ($x == $y || $x == $z ){
+                echo "x is equal to y or z";
+                echo "<br>";
+            }else{
+                echo "x is not equal to y or z";
+                echo "<br>";
+            }
     ?>
 </body>
 </html>
