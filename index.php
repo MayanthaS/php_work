@@ -299,7 +299,7 @@ echo $sampler[3],'<br>';
 echo sizeof($sampler);
 
 echo '<br>';
- */
+ 
 $samplerarr = array("Sadun","Kumara","Nimal","Sunil");
 $arr = & $samplerarr;
 
@@ -311,7 +311,23 @@ $samplerarr['5']='chamri';
 var_dump($samplerarr);
 var_dump($arr);
 
-
+//--------------
+//loops
+//while loop
+$x =0;
+ while($x <7){
+    echo $x;
+    echo '<br>';
+    $x++;
+ }
+*/
+//do -while loop
+  $y = 0;
+  do{
+    echo "Hello";
+    echo "<br>";
+    $y++;
+  }while ($y <= 8);
 
 
 
