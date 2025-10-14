@@ -329,7 +329,12 @@ $x =0;
     $y++;
   }while ($y <= 8);
 
-
+//for loop
+for($x = 0;$x <10; $x++ ){
+    echo $x;
+    echo "<br>";
+}
+//
 
 
 
