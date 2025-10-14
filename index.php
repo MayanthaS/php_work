@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<htm lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -159,18 +159,16 @@
             $x =10;
             echo $x;
             echo '<br>';
-            echo ++$x;
-<<<<<<< HEAD
-            */
-            //IF statement
-            $x = 20;
+echo ++$x;
+
+//IF statement
+$x = 20;
             $y = 30;
             $z = 20;
             $w =10;
             if ($x == $y || $x == $z ){
                 echo "x is equal to y or z";
                 echo "<br>";
-=======
             echo '<br>';
             echo $x;
             echo '<br>';
@@ -227,7 +225,7 @@
                 echo'<br>';
                 echo 'both are equal to the same value';
 
->>>>>>> dev
+
             }else{
                 echo "x is not equal to y or z";
                 echo "<br>";
@@ -243,8 +241,6 @@
                 echo 'either both are true or both are false';
             }
 
-<<<<<<< HEAD
-=======
                 //if elseif else
                 $x =10;
                 $y =20;
@@ -264,7 +260,7 @@
                    echo '<br>';
                    echo 'x is not equal to y';
                 }
-                  */
+            
                 //switch case
                 $input = 6;
                 switch($input){
@@ -286,8 +282,60 @@
                     default:
                         echo "Invalid input";
                 }
->>>>>>> dev
+
+            }
+               
+
+            //--------------
+//array is is a collection  of similar data types
+//each elemet  has a unique index
+//array has a fixed size
+
+$sampler = array("Sadun","Kumara","Nimal","Sunil");
+echo $sampler[0],'<br>';
+echo $sampler[1],'<br>';
+echo $sampler[2],'<br>';
+echo $sampler[3],'<br>';
+echo sizeof($sampler);
+
+echo '<br>';
+ */
+$samplerarr = array("Sadun","Kumara","Nimal","Sunil");
+$arr = & $samplerarr;
+
+var_dump($samplerarr);
+var_dump($arr);
+
+
+$samplerarr['5']='chamri';
+var_dump($samplerarr);
+var_dump($arr);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     ?>
 </body>
-</html>
+<html
