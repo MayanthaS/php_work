@@ -333,7 +333,9 @@ $x =0;
 for($x = 0;$x <10; $x++ ){
     echo $x;
     echo "<br>";
+    
 }
+echo"<br>";
 //-------------
 //first initialize the variabel
 //checkconditions
@@ -344,10 +346,11 @@ $arr = array("Apple","Banana","Orange","Grapes");
 foreach($arr as $x){
      echo "My favourite fruits is " . $x . "<br>";
 }
-
-
-
-
+echo"<br>";
+$arr = array("Apple","Banana","Orange","Grapes");
+for($x = 0; $x < sizeof($arr); $x++){
+    echo "My favourite fruits is " . $arr[$x] . "<br>";
+}
 
 
 
