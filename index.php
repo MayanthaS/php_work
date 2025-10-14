@@ -334,8 +334,16 @@ for($x = 0;$x <10; $x++ ){
     echo $x;
     echo "<br>";
 }
-//
-
+//-------------
+//first initialize the variabel
+//checkconditions
+//execute the inside statment
+//increment/decremant the variable
+//foreach loop
+$arr = array("Apple","Banana","Orange","Grapes");
+foreach($arr as $x){
+     echo "My favourite fruits is " . $x . "<br>";
+}
 
 
 
