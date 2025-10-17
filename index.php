@@ -260,7 +260,7 @@ $x = 20;
                    echo '<br>';
                    echo 'x is not equal to y';
                 }
-            
+                  */
                 //switch case
                 $input = 6;
                 switch($input){
@@ -282,91 +282,6 @@ $x = 20;
                     default:
                         echo "Invalid input";
                 }
-
-            }
-               
-
-            //--------------
-//array is is a collection  of similar data types
-//each elemet  has a unique index
-//array has a fixed size
-
-$sampler = array("Sadun","Kumara","Nimal","Sunil");
-echo $sampler[0],'<br>';
-echo $sampler[1],'<br>';
-echo $sampler[2],'<br>';
-echo $sampler[3],'<br>';
-echo sizeof($sampler);
-
-echo '<br>';
- 
-$samplerarr = array("Sadun","Kumara","Nimal","Sunil");
-$arr = & $samplerarr;
-
-var_dump($samplerarr);
-var_dump($arr);
-
-
-$samplerarr['5']='chamri';
-var_dump($samplerarr);
-var_dump($arr);
-
-//--------------
-//loops
-//while loop
-$x =0;
- while($x <7){
-    echo $x;
-    echo '<br>';
-    $x++;
- }
-*/
-//do -while loop
-  $y = 0;
-  do{
-    echo "Hello";
-    echo "<br>";
-    $y++;
-  }while ($y <= 8);
-
-//for loop
-for($x = 0;$x <10; $x++ ){
-    echo $x;
-    echo "<br>";
-    
-}
-echo"<br>";
-//-------------
-//first initialize the variabel
-//checkconditions
-//execute the inside statment
-//increment/decremant the variable
-//foreach loop
-$arr = array("Apple","Banana","Orange","Grapes");
-foreach($arr as $x){
-     echo "My favourite fruits is " . $x . "<br>";
-}
-echo"<br>";
-$arr = array("Apple","Banana","Orange","Grapes");
-for($x = 0; $x < sizeof($arr); $x++){
-    echo "My favourite fruits is " . $arr[$x] . "<br>";
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     ?>
 </body>
