@@ -312,7 +312,7 @@
                     default:
                         echo "Invalid input";
                 }
-   */
+   
                 //Loops
                 //while loop
                 $i = 1;
@@ -353,6 +353,57 @@
                     echo "<br>";
                     echo "The color is: " . $colors[$i];
                 }
+                 */
+                //--------------
+                //functions
+                //user defined functions
+                $x =100;
+
+                function newcal($x){
+                    $y = $x + 50;
+                    echo $y;
+                }
+                newcal($x);
+                
+                function cal($x,$y){
+                    $z=$x+$y;
+                    echo"<br>";
+                    echo $z;
+                }
+                cal(50,70);
+
+                
+               function greet($name){
+                     echo "<br>";
+                     echo "Hello, " . $name;
+               }
+               greet("Alice");
+  //-----------------------------------------
+  $age = 25;
+  function checkage($age){
+    if($age >= 18){
+        echo "<br>";
+        echo "You are eligible to vote.";
+    }else{
+        echo "<br>";
+        echo "You are not eligible to vote.";
+    }
+  }
+  checkage(2);
+
+
+
+
+
+
+
+
+
+
+
+
+
                ?>
+
 </body>
 </html>
