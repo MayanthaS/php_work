@@ -290,7 +290,7 @@
                    echo '<br>';
                    echo 'x is not equal to y';
                 }
-                  */
+               
                 //switch case
                 $input = 6;
                 switch($input){
@@ -312,7 +312,47 @@
                     default:
                         echo "Invalid input";
                 }
+   */
+                //Loops
+                //while loop
+                $i = 1;
+                while($i <= 5){
+                    echo "<br>";
+                    echo "The value of i is: " . $i;
+                    $i++;
+                }
+                //do while loop
+                $x =10;
+                do{
+                    echo "<br>";
+                    echo "The value of x is: " . $x;
+                    $x++;
+                }while($x <= 15);
 
-    ?>
+                $x = 1;
+                do{
+                    echo "<br>";
+                    echo "Hello";
+                    $x++;   
+                }while($x <= 5);
+               
+                //for loop
+                for($j =1; $j <=5; $j++){
+                    echo "<br>";
+                    echo "The value of j is: " . $j;
+                }
+
+                //for each loop
+                $colors = array("Red","Green","Blue","Yellow");
+                foreach($colors as $color){
+                    echo "<br>";
+                    echo "The color is: " . $color;
+                }
+                $colors = array("Red","Green","Blue","Yellow");
+                for($i=0; $i < sizeof($colors); $i++){
+                    echo "<br>";
+                    echo "The color is: " . $colors[$i];
+                }
+               ?>
 </body>
 </html>
