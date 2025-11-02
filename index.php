@@ -291,7 +291,13 @@ $x = 20;
        echo $z;
      }
      newCalc($x, $y);
-
+     echo"<br>";
+    $q=250;
+    function mulCalc($q){
+        $ans=$q*3;
+        echo"Answer ".$q;
+    }
+    mulCalc($q);
 
 
     ?>
