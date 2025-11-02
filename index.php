@@ -260,7 +260,7 @@ $x = 20;
                    echo '<br>';
                    echo 'x is not equal to y';
                 }
-                  */
+                 
                 //switch case
                 $input = 6;
                 switch($input){
@@ -282,6 +282,17 @@ $x = 20;
                     default:
                         echo "Invalid input";
                 }
+ */
+     //userdefined function
+    $x=100;
+     $y=50;
+     function newCalc($x,$y){
+       $z=$x+$y;
+       echo $z;
+     }
+     newCalc($x, $y);
+
+
 
     ?>
 </body>
